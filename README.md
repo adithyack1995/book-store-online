@@ -1,7 +1,7 @@
 
 ## Installation ⚒️
 
-   Clone he project by using git clone url
+   Clone the project by using git clone url
 
 1. Open the terminal in your root directory.
 
