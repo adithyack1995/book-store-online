@@ -1,0 +1,59 @@
+{
+  "menu": [
+    {
+      "url": "/admin/dashboard",
+      "name": "Dashboards",
+      "icon": "menu-icon tf-icons mdi mdi-home-outline",
+      "slug": "dashboard.index"
+    },
+    {
+      "name": "Books",
+      "icon": "menu-icon tf-icons mdi mdi-book-multiple",
+      "slug": "books",
+      "submenu": [
+        {
+          "url": "/admin/books",
+          "name": "List",
+          "slug": "books.index"
+        },
+        {
+          "url": "/admin/books/create",
+          "name": "Add",
+          "slug": "books.create"
+        }
+      ]
+    },
+    {
+      "url": "/admin/purchases",
+      "name": "Purchases",
+      "icon": "menu-icon tf-icons mdi mdi-archive-outline",
+      "slug": "purchases.index"
+    }
+  ],
+  "menuUser": [
+    {
+      "url": "/user/dashboard",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons mdi mdi-home-outline",
+      "slug": "user.dashboard.index"
+    },
+    {
+      "url": "/user/books",
+      "name": "Books",
+      "icon": "menu-icon tf-icons mdi mdi-book-multiple",
+      "slug": "user.books.index"
+    },
+    {
+      "name": "Shopping Cart",
+      "icon": "menu-icon tf-icons mdi mdi-cart",
+      "slug": "cart.view",
+      "url": "/user/view-cart"
+    },
+    {
+      "name": "Orders",
+      "icon": "menu-icon tf-icons mdi mdi-archive-outline",
+      "slug": "orders",
+      "url": "/user/orders"
+    }
+  ]
+}
