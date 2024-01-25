@@ -25,17 +25,18 @@
 
    php artisan migrate
 
-7. To create super admin run the artisan command given below.
+7. To insert roles run the below command of seeder
+
+   php artisan db:seed or php artisan db:seed RoleSeeder
+
+8. To create super admin run the artisan command given below.
 
    php artisan store:create-super-admin
 
-8. To serve the application, you need to run the following command in the project directory
+9. To serve the application, you need to run the following command in the project directory
 
    php artisan serve
 
-9. To insert roles run the below command of seeder
-
-   php artisan db:seed or php artisan db:seed RoleSeeder
 
 10. Change env file FILESYSTEM_DISK to public for image storing.
 
